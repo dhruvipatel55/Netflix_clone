@@ -1,0 +1,92 @@
+html, body{
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  border: none;
+}
+
+header{
+  background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(0, 0, 0, 0.7));
+  background-color: grey;
+  height: 13vh;
+}
+.logo{
+  float: left; 
+  vertical-align: middle;
+  line-height: 110px;
+  margin-left: 1.5%; 
+}
+
+.logo img{
+  width: 100px;
+  height: 30px;
+}
+
+.main-nav{
+  margin-left: 190px;
+  list-style: none; 
+  line-height: 90px;
+  vertical-align: middle; 
+}
+
+.main-nav li{
+  display: inline-block;  
+}
+
+.main-nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+}
+
+.main-nav img{
+  vertical-align: middle;
+}
+
+.search{
+  margin-left: 150px;
+}
+
+.main-nav img{
+  width:30px;
+  height: 30px;
+}
+.pitch_title{
+  font-size: 1em;
+  margin:1.5em 1em 0.2em;
+  font-weight:700;
+}
+
+.show{
+  width:15em;
+  height: 9em;
+  margin-left:1.2%;
+  margin-top: 0.5%;
+  transition: all 1s ease;
+}
+
+.image:hover{
+  height:11em;
+  width: 17em;
+  transition: all 1s ease;
+}
+
+.f-play-video{
+}
+
+.play-button{
+  width:15em;
+}

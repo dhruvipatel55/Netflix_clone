@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+  margin:0;
+  padding: 0
+  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
+header{
+	background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(0, 0, 0, 0.7));
+  background-color: grey;
+  height: 13vh;
+}
+
+.logo{
+	float: left; 
+	vertical-align: middle;
+	line-height: 110px;
+	margin-left: 1.5%; 
+}
+
+.logo img{
+	width: 167px;
+	height: 45px;
+}
+
+.main-nav{
+	margin-left: 190px;
+	list-style: none; 
+	line-height: 90px;
+	vertical-align: middle; 
+}
+
+.main-nav li{
+	display: inline-block;  
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 16px;
+}
+
+.main-nav img{
+	vertical-align: middle;
+}
+
+.search{
+	margin-left: 150px;
+}
+
+.main-nav img{
+	width:30px;
+	height: 30px;
+}
+
+.info .original{
+	letter-spacing: 2px;
+	font-family: "Roboto",sans-serif;
+	z-index: 1;
+	font-size:19px; 
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 70px;
+}
+.info h1{
+	line-height: 70px;
+	letter-spacing: -2px;
+	font-family: Blippo, fantasy;
+	z-index: 1;
+	font-size:70px; 
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 85px;
+}
+
+.info{
+}
+
+.fa-play{
+	color: white;
+	padding-right: 10px; 
+}
+
+.fa-plus{
+	color: white;
+	padding-right: 10px; 
+}
+
+.buttons{
+	margin-left: 50px;
+	position: absolute;
+}
+
+.btn1{
+	width: 100px;
+	border: none;
+	font-weight: 10;
+	color: #ddff;
+	font-size: 14px;
+	background-color: rgba(90,90,90,0.5);
+	position: absolute;
+	padding: 5px 25px;
+	margin-top: 240px;
+	cursor: pointer;
+}
+
+.btn2{
+	width: 120px;
+	margin-left: 0;
+	border: none;
+	font-weight: 10;
+	color: #ddff;
+	font-size: 14px;
+	background-color: rgba(90,90,90,0.5);
+	position: absolute;
+	padding: 5px 20px;
+	margin-top: 240px;
+	margin-left: 115px;
+	cursor: pointer;
+}
+
+.info .season{<
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: "Roboto",sans-serif;
+	font-size:19px; 
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 300px;
+}
+
+.description{
+	letter-spacing: -1px;
+	line-height: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-family: "Roboto",sans-serif;
+	font-size:16px; 
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 323px;
+}
+.banner img{	
+	width: 100%;
+	height:400px;
+}
